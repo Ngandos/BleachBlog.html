@@ -1,0 +1,266 @@
+* {
+	margin: 0px;
+	padding: 0px;
+        }
+
+body{
+    background-color: antiquewhite;
+        }
+
+nav {
+    display: flex;
+	width: 100%;
+    height: 50px;
+    flex-direction: row;
+	margin: 0 auto;
+	background-color: red;
+	position: sticky;
+	top: 0px;
+    float: inline-start;
+    position: fixed;
+    z-index: 5;
+        }
+
+nav ul {
+    list-style-type: none;
+    width: 100%;
+        }
+
+nav ul li {
+    float: left;
+    width: 25%;
+    text-align: center;
+    position: relative ;
+    }
+
+nav ul ::after {
+    content: ““ ;
+    display: table;
+    clear: both;
+        }
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid transparent;
+    padding: 10px 0;
+        }
+
+nav a:hover {
+    font-weight: bolder;
+    color: rgb(88, 230, 88);
+    border: forestgreen solid 1px;
+    border-bottom: 2px solid forestgreen;
+        }
+
+.under {
+    display: none;
+    box-shadow: 0px 1px 2px #ccc;
+    background-color: white;
+    width: 100%;
+    z-index: 1000;
+        }
+
+nav > ul li:hover .under {
+            display: block;
+                }
+
+.under li {
+    float: none;
+    width: 100%;
+    text-align: left;
+    }
+
+.under a {
+    padding: 10px;
+    border-bottom: none;
+    }
+
+.under a:hover {
+    border-bottom: none;
+    background-color: rgba (red, green, blue, 0.1); 
+        }
+
+
+.wrap a::after {
+    content: ““;
+    font-size: 12 px;	
+        }
+
+.ParaHead{
+    display: flex;
+    background-image: url("./ImagesBleach/anime-bleach-wallpapers-hd-download-background-images-mac-desktop-wallpapers-free-4k-hd-pictures-tablet-1920x1080-1.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+        }
+
+.HoverContent{
+    display: inline-flex;
+    margin-bottom: 5%;
+        }
+
+.Hover{
+    padding: auto;
+    height: 70px;
+    width: 150px;
+    border: solid 3px black;
+    margin-left: 5%;
+    text-align: center;
+        }
+
+.ParaBody{
+    display: flex;
+    background-image: url("ImagesBleach/Cap num et ins div .jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+        }
+
+.ParaHeadShikai{
+    display: flex;
+    background-image: url("./ImagesBleach/RyujinJakka\ Shikai.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+        }
+
+.ParaHeadBankai{
+    display: flex;
+    background-image: url("./ImagesBleach/RyujinJakka\ Bankai.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+    height: 100vh;
+    position: relative;
+    z-index: 1;
+        }
+
+.ParaHeadShikaiKutchi{
+    display: flex;
+    background-image: url("./ImagesBleach/Kutchiki\ Byakuya\ Shikai.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+    height: 100vh;
+    position: relative;
+    z-index: 1; 
+}
+        
+.ParaHeadBankaiKutchi{
+    display: flex;
+    background-image: url("./ImagesBleach/Kutchiki\ Byakuya\ Bankaii.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /*overflow: hidden;*/
+    height: 100vh;
+    position: relative;
+    z-index: 1; 
+}
+
+
+.ParaSpot{
+    height: 10%;
+    width: 20%;
+    margin: auto;
+    background-color: blue;
+    opacity: 0.7;
+    /*box-shadow: antiquewhite 10px 10px 10px;*/
+    font-size: x-large;
+    font-weight: 15px;
+        }
+
+.ParaSpot > a{
+    color: blanchedalmond;
+    text-decoration: none;
+        }
+
+h1{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 60px;
+    margin-bottom: 7%;
+    text-shadow: black 4px 4px 8px;
+        }
+
+#ParaOne, #ParaTwo{/*Zones Textes*/
+    width: 85%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+        }
+
+#GridBox, #GridBox2{/*Box principal*/
+    width: 100%;
+    height: 610px;
+    display: flex;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: wrap;
+        }
+
+/*.ParaOne, .ParaTwo{
+    margin-top: 5%;
+    margin-bottom: 5%;
+        }*/
+
+.grill_1{
+    margin-left: 35%;
+}
+
+.grill{/*Box niv 3 conteneur direct img*/
+    display: flex;
+    width: 30%;
+    height: 50%;
+        }
+
+.Grid{
+    height: 300px;
+    width: 400px;
+    border: black solid 2px; 
+        }
+
+.Grid:hover{
+    border-radius: 50%;
+    border: red solid 4px;
+    box-shadow: black 4px 4px 10px;
+        }
+
+footer{
+    display: flex;
+    width: 100%;
+    background-color: brown;
+    margin-bottom: 0%;
+    margin-top: 5%;
+    height: 50px;
+    padding: auto;
+    bottom: 0px;
+    float: inline-start;
+    position: fixed;
+    z-index: 5;
+        }
